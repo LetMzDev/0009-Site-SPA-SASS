@@ -1,5 +1,9 @@
 # Praticando CSS-SASS
 
+## Links
+- [SASS](https://sass-lang.com/)
+- [Documentação](https://sass-lang.com/documentation/)
+___
 ## Live SASS Compiler
 - **Extensões**
 	- Para utilizar, quando tiver o arquivo `.scss/.SASS` principal criado, você pode utilizar o atalho **‘ctrl’ + ‘shift’ + ‘p’** e clicar na opção *‘Live SASS: Watch SASS’*, ou ir na barra inferior e clicar no botão *‘Watch SASS’*.
@@ -12,6 +16,7 @@ ___
 
 **Função** | **Descrição**
 ---|---
+[Calculations](https://sass-lang.com/documentation/values/calculations/) | Documentação.
 `abs()` | Retorna o valor absoluto de um número.
 `ceil()` | Arredonda um número para cima.
 `floor()` | Arredonda um número para baixo.
