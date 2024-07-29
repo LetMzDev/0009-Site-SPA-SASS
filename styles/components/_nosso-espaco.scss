@@ -1,3 +1,4 @@
+@use '../abstract/variaveis';
 @use '../abstract/mixins';
 
 #nosso-espaco {
@@ -9,7 +10,7 @@
 		align-items: center;
 		justify-content: space-around;
 		gap: 2rem;
-		padding: 2rem;
+		padding: 2rem 0;
 
 		.imgs-espaco {
 			max-width: 500px;
@@ -18,9 +19,23 @@
 		.espaco-textos {
 			@extend.imgs-espaco;
 
+			.titulo {
+				@include mixins.ff-fs-cl ( variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secundaria );
+				font-weight: 500;
+			}
+
+			.infos {
+				@include mixins.ff-fs-cl ( variaveis.$ft-textos, 1.2rem, variaveis.$cor-primaria );
+			}
+
 			.separador {
 				width: 100%;
 			}
+		}
+
+		// & é o parent selector e basicamente faz referência ao elemento pai no qual ele está alinhado, além de permitir que coloquemos pseudo-classes para conseguir fazer algo. Vamos a um exemplo!
+		&:nth-child(2) {
+			flex-direction: row-reverse;
 		}
 	}
 }
