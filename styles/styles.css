@@ -32,6 +32,10 @@ header nav ul li a {
   color: #0C0421;
   font-weight: 500;
 }
+header nav ul li a:hover {
+  transform: scale(1.2);
+  font-weight: 800;
+}
 header #home {
   max-width: 1040px;
   margin: 0 auto;
@@ -63,6 +67,9 @@ header #home .textos-home .btn-main {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   outline: none;
+}
+header #home .textos-home .btn-main:hover {
+  background-color: #0C0421;
 }
 header #home .img-home {
   max-width: 474px;
