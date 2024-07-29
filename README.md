@@ -6,3 +6,16 @@
 - `npm`
 	- `npm install -g sass`
 	- `SASS –version`
+___
+## Funções Matemáticas
+- SASS traz funções matemáticas que podem ser usadas para realizar cálculos em CSS. Algumas dessas funções são:
+
+**Função** | **Descrição**
+---|---
+`abs()` | Retorna o valor absoluto de um número.
+`ceil()` | Arredonda um número para cima.
+`floor()` | Arredonda um número para baixo.
+`min()` | Retorna o menor de dois números.
+`max()` | Retorna o maior de dois números.
+`round()` | Arredonda um número para o número inteiro mais próximo.
+`sqrt()` | Retorna a raiz quadrada de um número.
