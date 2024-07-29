@@ -1,3 +1,5 @@
+@use './abstract/variaveis';
+
 header {
 	background: variaveis.$gradiente-primario;
 	padding: 2rem;
